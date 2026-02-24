@@ -1,0 +1,19 @@
+# Archivos de sistema y temporales
+__pycache__/
+*.log
+.DS_Store
+
+# Entornos virtuales (donde se instalan librerías)
+env/
+venv/
+.env
+
+# Datos pesados (Excel, CSV, JSON grandes)
+# IMPORTANTE: No queremos subir datos con derechos de autor o muy pesados a GitHub
+*.csv
+*.xlsx
+*.json
+*.pdf
+
+# Archivos de configuración de IDE
+.vscode/
